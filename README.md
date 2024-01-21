@@ -2,8 +2,10 @@ Videophile Quality MPV configs, now auto slects correct colour gamut, tone mappi
 without needing to change the windows HDR settings, correctly identifies and maps, SDR (bt709), HDR 10 and HLG.
 
 Only settings requring modification are:
+
 --target-peak=2300  (run a widows HDR calibration on your display, memorise the max numberof NITS in the full screen test and use 
 this value in place of 2300 in mpv.conf)
+
 --fs-screen=0 This is the fullscreen display, change the number to match your display device.
 
 e displays stats for 5 seconds, E toggles stats, whilst displayed use 1,2 and 3 to switch between stat pages.
