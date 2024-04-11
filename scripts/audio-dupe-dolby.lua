@@ -104,7 +104,7 @@ mp.command_native_async({
 			"--audio-device=wasapi/{1a782154-9a5f-4eba-af2a-aab6bcaa72c5}" ,
 			"--input-ipc-server=" .. o.pipe_template .. control,
 			"--start=" .. (mp.get_property("audio-pts") or mp.get_property("time-pos") or "0"),
-			"--audio-delay=-1200"
+			"--audio-delay=0.5"
 		},
         playback_only = false
     }, function() end)
