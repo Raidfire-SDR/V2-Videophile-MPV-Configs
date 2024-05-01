@@ -1,15 +1,10 @@
-Videophile Quality MPV configs, now utilises profiles to read into the video file and automatically selects correct colour gamut, tone mapping and transfer function to enable HDR signalling or Dsplay SDR content on a HDR display.
+Videophile Quality MPV configs, n
 
-Without needing to change the windows HDR settings, correctly identifies and maps, SDR (bt709), HDR 10 and HLG.
-
-WINDOWS HDR SHOULD BE SWITCHED OFF AT ALL TIMES, IF THE CONFIG DETECTS HDR CONTENT THEN IT WILL SEND THE CONTENT AND METADATA AND YOU SHOULD SEE THE HDR INDICATOR ON YOUR DISPLAY.
 
 60/120hz@24fps working enabling max refresh rate of your device with the fps output matching the input.
 
 Only settings requring modification are:
 
---target-peak=2300  (run a widows HDR calibration on your display, memorise the max number of NITS in the full screen test and use 
-this value in place of 2300 in mpv.conf)
 
 --fs-screen=0 This is the fullscreen display, change the number to match your display device.
 
