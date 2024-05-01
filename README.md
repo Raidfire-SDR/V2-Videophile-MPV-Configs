@@ -1,4 +1,4 @@
-Videophile Quality MPV configs, n
+Videophile Quality MPV configs
 
 
 60/120hz@24fps working enabling max refresh rate of your device with the fps output matching the input.
@@ -19,3 +19,7 @@ Ensure you have downloaded the latest version of YT.DLP https://github.com/yt-dl
 Run the server MPV Browser Server.exe, now open a youtube video in your browser and click the MPV button, you should see the request passed to the server window, after a couple of seconds the MPV window should open.
 
 F displays the youtube quality menu.
+mouse right pause/play
+middle mouse - stats
+mouse fwd button - osd auto
+mouse back button - osd never
